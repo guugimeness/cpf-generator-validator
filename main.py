@@ -1,14 +1,14 @@
 from PySide6.QtWidgets import QApplication, QLabel
-from widgets import MainWindow, Logo
+from widgets import MainWindow, GenerateCpfGrid
 
 if __name__ == '__main__':
     
     app = QApplication()
     mainWindow = MainWindow()
     
-    # Text
-    cpfLogo = Logo('GERADOR E VALIDADOR\n DE CPF')
-    mainWindow.addWidgetToVLayout(cpfLogo)
+    # Grid
+    generateCpfGrid = GenerateCpfGrid()
+    mainWindow.addLayoutToVLayout(generateCpfGrid)
     
     mainWindow.adjustWindowSize()
     mainWindow.show()
