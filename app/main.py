@@ -1,14 +1,14 @@
 from PySide6.QtWidgets import QApplication, QLabel
-from widgets import MainWindow, GenerateCpfGrid
+from widgets import MainWindow, TextTextLine
+from styles import setupTheme
 
 if __name__ == '__main__':
     
     app = QApplication()
     mainWindow = MainWindow()
     
-    # Grid
-    generateCpfGrid = GenerateCpfGrid()
-    mainWindow.addLayoutToVLayout(generateCpfGrid)
+    # Theme
+    setupTheme()
     
     mainWindow.adjustWindowSize()
     mainWindow.show()
