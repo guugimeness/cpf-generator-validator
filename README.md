@@ -9,7 +9,11 @@ CPF generator and validator project intended to help students, programmers, anal
 ## Visuals
 
 <p align="center">
-  <img src="" alt="Image">
+  <img src="https://github.com/guugimeness/cpf-generator-validator/blob/82efa47e80b1046bc102910dcf81d88dd07f368a/assets/generate-punc.png" alt="Image">
+</p>
+
+<p align="center">
+  <img src="https://github.com/guugimeness/cpf-generator-validator/blob/82efa47e80b1046bc102910dcf81d88dd07f368a/assets/generate-nopunc.png" alt="Image">
 </p>
 
 ## Installation
